@@ -1,5 +1,6 @@
-# Simple Calcualtor With 4 Operators
-.add
-.subtract
-.multiply
-.divide
+# Simple Calcualtor With 4 Operations
+add,
+subtract,
+multiply
+and
+divide
