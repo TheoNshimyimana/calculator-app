@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(to top left, #28b487, #7dd56f);
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+h1 {
+  padding-top: 0.6rem;
+  color: #fff;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.container {
+  
+  width: 300px;
+  height: 500px;
+  background: #000;
+  border-radius: 10px;
+  justify-self: center;
+  box-shadow: 4px, 4px 30px rgba(0,0,0,0.6);
+
+}
+
+.screen {
+  width: 260px;
+  height: 65px;
+  margin: 5px;
+  padding: 8px;
+  background: #fff;
+  text-align: right;
+  justify-content: end;
+  font-size: 32px;
+  font-family: sans-serif;
+  font-weight: 600;
+  border-radius: 2px;
+  cursor: none;
+  overflow: hidden;
+  border: none;
+}
+.resets {
+  margin: 10px 5px;
+  display: flex;
+  gap: 0.6rem;
+}
+
+
+
+.btns {
+  margin: 5px;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: 600;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn--clear {
+  background-color: #f97b22;
+}
+.btn--delete {
+  background-color: #006699;
+}
+
+.numbers {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.btn--numbers,
+.btn--operators,
+.btn--decimal,
+.btn--equal {
+  width: 25px;
+  height: 25px;
+  margin: 5px;
+  padding: 1.6rem;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+}
